@@ -247,6 +247,10 @@ footer {
 	margin-top: 25px;
 }
 
+.some-facts h2 {
+	font-size: 1.2em;
+}
+
 footer .footer-sect {
 	display: flex;
 	justify-content: space-between;
@@ -270,6 +274,14 @@ footer .some-facts {
 	
 }
 
+
+/* Media queries */
+
+@media screen and (max-width: 480px) {
+	.service_block {
+	  width: 100%
+	}
+}
 
 
 
